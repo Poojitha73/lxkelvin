@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    /* color: blue; */
+
+}
+body{
+    background: url('https://www.bhg.com/thmb/MxEpE0n0zaR4V5UMIcTwI1tRjVM=/4000x0/filters:no_upscale():strip_icc()/BHG-Fruits-and-Vegetables-ee3a5387eb5d43c9bb390a5ef3a13247.jpg');
+    background-size:cover;
+    
+    
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.navbar .nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar .nav-links li {
+    margin:  15px;
+}
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+.navbar .nav-links a:hover {
+    color: #4CAF50;
+}
+.navbar .right-section {
+    display: flex;
+    align-items: center;
+}
+.navbar .search-bar {
+    /* width: 600px; */
+    margin-right: 150px;
+
+
+
+    
+}
+.navbar input[type="text"] {
+    width: 400px;
+    margin-left:-170px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.navbar select {
+    margin-right: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.navbar .sign-in-btn {
+    background-color: orange;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.navbar .sign-in-btn:hover {
+    background-color: #e68a00;
+}
+#form{
+    width:500px;
+    border:2px solid rgb(236, 225, 225);
+    padding:50px;
+    padding-left:120px;
+    margin-top:8%;
+    margin-left: 35%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.700);
+    backdrop-filter: blur;
+    
+}
+#name{
+    height:35px;
+    width:250px;
+    padding:6px;
+    border:1px solid black;
+    border-radius: 8px;
+}
+#email{
+    height:35px;
+    width:250px;
+    padding:6px;
+    border:1px solid black;
+    border-radius: 8px;
+}
+#password{
+    height:35px;
+    width:250px;
+    padding:6px;
+    border:1px solid black;
+    border-radius: 8px;
+
+}
+#reenter{
+    height:35px;
+    width:250px;
+    padding:6px;
+    border:1px solid black;
+    border-radius: 8px;
+
+}
+
+#reg{
+   padding-left: 50px;
+   font-size: 25px;
+}
+#continue{
+    height:35px;
+    width:250px;
+    font-size:15px ;
+    color: aliceblue;
+    border:2px solid black;
+    border-radius: 8px;
+    background-color: rgb(12, 162, 69);
+}
+

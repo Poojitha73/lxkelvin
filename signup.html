@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <script src="https://kit.fontawesome.com/93ab621d3c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">LX Kelvin</div>
+            <ul class="nav-links">
+                
+                <li><a href="#location"><i id="location" class="fa-solid fa-location-dot"></i>   Location
+                <!-- <iframe src="https://www.google.com/maps/place/Metropolitan+City+of+Rome+Capital,+Italy/@41.8595317,11.9801926,9.59z/data=!4m6!3m5!1s0x13258a111bd74ac3:0x3094f9ab2388100!8m2!3d41.9214534!4d12.7135121!16s%2Fm%2F012m5qrv?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D">  -->     
+                <!-- <iframe src="https://www.google.com/maps/place/Metropolitan+City+of+Rome+Capital,+Italy/@41.8595317,11.9801926,9.59z/data=!4m6!3m5!1s0x13258a111bd74ac3:0x3094f9ab2388100!8m2!3d41.9214534!4d12.7135121!16s%2Fm%2F012m5qrv?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D"></iframe> -->
+                </a></li> 
+                <li><a href="#best-seller">Best Seller</a></li>
+                <li><a href="#today-deals">Today's Deals</a></li>
+            </ul>
+            <div class="right-section">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for products">
+                    <!-- <i id="icon" class='bx bx-search-alt-2'></i> -->
+                </div>
+                <select name="language" id="language">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                </select>
+                <button class="sign-in-btn">Sign In</button>
+            </div>
+        </div>
+    </nav>
+    <form id="form"  target="_self" action="./success.html" >
+        
+        <label id="reg">Register Now</label>
+        <br><br>
+        <input type="text" placeholder="Name" id="name" required>
+        <br><br>
+        <input type="email" placeholder="Email" id="email" required>
+        <br><br>
+        <input type="password" placeholder="Password" id="password" required>
+        <br><br>
+        <input type="password" placeholder="Re-enter Password" id="reenter" required>
+        <br><br>
+        <input type="checkbox" id="terms">
+        <label for="terms">I accept the terms and policy</label>
+        <br><br>
+        <button type="submit" id="continue">Continue</button>
+    
+    </form>
+</body>
+</html>
