@@ -13,16 +13,16 @@ body {
 }
 
 .wrapper {
-    background: rgba(255, 255, 255, 0.2); 
+    background: rgba(255, 255, 255, 0.2);
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.4); 
+    border: 1px solid rgba(255, 255, 255, 0.4);
     max-width: 400px;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    backdrop-filter: blur(8px); 
+    backdrop-filter: blur(8px);
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.4);
     outline: none;
     font-size: 14px;
-    background-color: rgba(255, 255, 255, 0.4); 
+    background-color: rgba(255, 255, 255, 0.4);
     box-sizing: border-box;
 }
 
@@ -71,7 +71,7 @@ h1 {
 }
 
 .remember-forgot a {
-    color:red;
+    color: red;
     text-decoration: none;
     font-size: 14px;
 }
@@ -85,7 +85,7 @@ h1 {
     padding: 12px;
     border: none;
     border-radius: 8px;
-    background-color: rgba(117, 235, 225, 0.8); 
+    background-color: rgba(117, 235, 225, 0.8);
     color: rgb(35, 37, 37);
     font-size: 16px;
     cursor: pointer;
@@ -93,8 +93,9 @@ h1 {
 }
 
 .btn:hover {
-    background-color: rgba(0, 86, 179, 0.8); 
+    background-color: rgba(0, 86, 179, 0.8);
 }
+
 
 .register-link {
     margin-top: 20px;
@@ -109,4 +110,65 @@ h1 {
 
 .register-link a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .input-box input {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .remember-forgot {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .register-link {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .input-box input {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .remember-forgot {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .register-link {
+        font-size: 12px;
+    }
 }
